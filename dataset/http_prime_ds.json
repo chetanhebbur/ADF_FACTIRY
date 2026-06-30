@@ -1,0 +1,23 @@
+{
+	"name": "http_prime_ds",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "http_prime_ls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "RutujaKadam95/AzureETLPipeline-AmazonPrimeDataset/main/amazon_prime_titles.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

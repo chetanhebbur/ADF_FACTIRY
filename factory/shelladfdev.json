@@ -1,0 +1,15 @@
+{
+	"name": "shelladfdev",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1eb30d08-dff8-4701-8d29-d8e54f87de86",
+		"tenantId": "ef23b6f8-aedf-460f-9c16-e704dc1e3e52"
+	}
+}
